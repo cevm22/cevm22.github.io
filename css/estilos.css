@@ -21,6 +21,9 @@ h3{
 span{
     font-size: 1rem;
 }
+li{
+    list-style:square;
+}
 
 .my_info_container{
     width: 100%;
@@ -72,4 +75,9 @@ span{
 
 .desc_container{
     margin: 5px;
+}
+
+.tech_list ul, .skills_list ul{
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
