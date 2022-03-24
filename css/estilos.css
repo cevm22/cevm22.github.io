@@ -15,11 +15,12 @@ h2{
     font-size: 1.2rem;
 }
 h3{
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 span{
     font-size: 1rem;
+    display: inline-block;
 }
 li{
     list-style:square;
@@ -80,4 +81,11 @@ li{
 .tech_list ul, .skills_list ul{
     margin-left: 20px;
     margin-bottom: 10px;
+}
+
+/* ======================== */
+/* Projects */
+
+.cotizaciones_Soriana{
+    border: solid 1px white;
 }
