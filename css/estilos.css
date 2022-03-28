@@ -6,7 +6,7 @@
 }
 
 html{
-    background-color: gray;
+    /* background-color: gray; */
 }
 body{
     margin: 10px;
@@ -22,13 +22,14 @@ h4{
 }
 span{
     text-align:justify;
-}
-
-
-span{
     font-size: 1rem;
     display: inline-block;
 }
+
+.laboral_container span{
+    margin-bottom: 20px;
+}
+
 li{
     list-style:square;
 }
@@ -41,7 +42,7 @@ li{
 .my_info_container{
     width: 100%;
     /* height: 15vh; */
-    background-color: brown;
+    background-color: #cddafd;
     display: flex;
     flex-wrap: wrap;
     align-items:center;
@@ -65,6 +66,22 @@ li{
     height: 100px;
     border-radius:100%;
     background-color: black;
+}
+.head_experience{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.exp_img{
+    max-width: 50px;
+    min-width: 50px;
+    width: 20%;
+    
+}
+.exp_text_header{
+    width: 80%;
 }
 
 .name_container{
@@ -99,21 +116,43 @@ li{
 .width_100{
     width: 100%;
 }
-/* ======================== */
-/* Projects */
-
-.cotizaciones_Soriana{
-    border: solid 1px white;
+.principal{
+    background-color: #bee1e6;
 }
 
-
-/* =========================== */
+.projects_container_width{
+    background-color: #fde2e4;
+}
+.card_main{
+border: solid 1px #005f73;
+background-color: #dfe7fd;
+box-shadow: 5px 10px 5px  #acacac;
+}
 
 @media (min-width:700px){
-
+    main{
+        display: flex;
+        justify-content: center;
+    }
     .main_container{
         flex-wrap: wrap;
         flex-direction: row;
+        max-width: 1500px;
+        justify-content: center;
+    }
+
+    .left_margin{
+        padding-left: 30px;
+    }
+
+    .projects_container_width{
+        max-width: 1500px;
+        margin: 23px;
+        margin-top: 10px;
+    }
+
+    .principal{
+        margin-left: 10px;
     }
     .my_info_container{
         width: 35%;
@@ -124,12 +163,15 @@ li{
         height: auto;
     }
     .name_container h1{
-        margin: 0px;
+        margin-left: 0px;
+        margin-bottom: 10px;
     }
     .width_100_media{
         width: auto;
     }
     .photo_container{
+        margin-top: 20px;
+        margin-bottom: 20px;
         width: 100%;
         align-items: center;
         justify-content: center;
@@ -139,6 +181,39 @@ li{
         margin-bottom: 10px;
     }
     .principal{
-        width: 65%;
+        width: 61%;
     }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        height: 100%;
+    }
+    .laboral_container{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        height: 100%;
+
+    }
+
+    .projects_container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        justify-content:space-evenly ;
+        margin-bottom: 25px;
+    }
+
+    .card_main{
+        min-width: 300px;
+        max-width: 400px;
+        height: 250px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-evenly;
+    }
+
 }
