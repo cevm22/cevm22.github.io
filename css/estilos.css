@@ -51,6 +51,11 @@ li{
     flex-direction: column;
 }
 
+.lang_ch{
+    padding: 10px;
+    width: 100%;
+}
+
 .my_info_container{
     width: 100%;
     /* height: 15vh; */
