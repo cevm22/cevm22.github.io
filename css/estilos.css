@@ -74,7 +74,6 @@ li{
 }
 
 .photo_container picture{
-    /* width: fit-content; */
     height: 100%;
 }
 
@@ -141,6 +140,50 @@ li{
 .tech_list ul, .skills_list ul{
     margin-left: 20px;
     margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.cotizaciones_Soriana {
+    order: 8;
+}
+
+.telegarm_tiendas {
+    order: 11;
+}
+.telegram_scholars_farm {
+    order: 5;
+}
+.discord_casino {
+    order: 3;
+}
+.send_tokens_ron {
+    order: 4;
+}
+
+.bot_binance {
+    order: 6;
+}
+.discord_assets_erc721 {
+    order: 2;
+}
+
+.arbitraje_bitso {
+    order: 7;
+}
+.agv_compas {
+order: 9;
+}
+
+.agv_compas_load {
+order: 10;
+}
+
+.landing_incotech {
+    order: 1;
+}
+
+.macrox_excel {
+    order: 12;
 }
 
 .width_100{
@@ -159,6 +202,9 @@ background-color: #dfe7fd;
 box-shadow: 5px 10px 5px  #acacac;
 }
 
+@media (min-width:300px){
+
+}
 @media (min-width:700px){
     main{
         display: flex;
