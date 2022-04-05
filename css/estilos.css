@@ -44,6 +44,7 @@ a:hover{
 
 li{
     list-style:square;
+    text-align: justify;
 }
 .main_container{
     display: flex;
