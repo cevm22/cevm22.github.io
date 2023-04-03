@@ -180,11 +180,14 @@ order: 10;
 }
 
 .landing_incotech {
-    order: 1;
+    order: 6;
 }
 
 .macrox_excel {
     order: 12;
+}
+.mir4_bot{
+    order:1;
 }
 
 .width_100{
