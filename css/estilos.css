@@ -1,72 +1,77 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Avenir Next,Muli,sans-serif;
+    font-family: Avenir Next, Muli, sans-serif;
 }
 
 
-body{
+body {
     margin: 10px;
 }
 
-section{
+section {
     margin-bottom: 10px;
     padding: 5px;
 }
 
-h2{
+h2 {
     font-size: 1.2rem;
 }
-h3{
+
+h3 {
     font-size: 1rem;
 }
-h4{
+
+h4 {
     font-size: 0.9rem;
 }
-span{
-    text-align:justify;
+
+span {
+    text-align: justify;
     font-size: 1rem;
     display: inline-block;
 }
-a{
+
+a {
     text-decoration: none;
     color: rgba(202, 3, 3, 0.753);
 }
 
-a:hover{
+a:hover {
     text-transform: uppercase;
 }
 
-.laboral_container span{
+.laboral_container span {
     margin-bottom: 20px;
 }
 
-li{
-    list-style:square;
+li {
+    list-style: square;
     text-align: justify;
 }
-.main_container{
+
+.main_container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
-.lang_ch{
+.lang_ch {
     padding: 10px;
     width: 100%;
 }
 
-.my_info_container{
+.my_info_container {
     width: 100%;
     /* height: 15vh; */
     background-color: #cddafd;
     display: flex;
     flex-wrap: wrap;
-    align-items:center;
+    align-items: center;
 }
 
-.photo_container{
+.photo_container {
     width: 25%;
     margin: 5px;
     position: relative;
@@ -74,39 +79,43 @@ li{
     align-items: center;
 }
 
-.photo_container picture{
+.photo_container picture {
     height: 100%;
 }
 
-.photo{
+.photo {
     width: 110px;
     height: 100px;
-    border-radius:100%;
+    border-radius: 100%;
     background-color: black;
 }
 
 
 
-.head_experience{
+.head_experience {
     display: flex;
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
 
 }
-.exp_img{
+
+.exp_img {
     max-width: 50px;
     min-width: 50px;
     width: 25%;
-    
+
 }
-.exp_text_header{
+
+.exp_text_header {
     width: 75%;
 }
-.name{
+
+.name {
     margin-left: 5px;
 }
-.name_container{
+
+.name_container {
     width: 70%;
     height: 100%;
     display: flex;
@@ -114,69 +123,75 @@ li{
     justify-content: center;
 }
 
-.name_container h1{
+.name_container h1 {
     text-align: center;
     font-size: 1.5rem;
     margin-left: 10px;
-    
+
 }
 
-.margin_5px{
+.margin_5px {
     margin: 5px;
     border: 5px;
 }
 
-.margin_20px{
+.margin_20px {
     margin-bottom: 20px;
 }
 
-.margin_20px_top{
+.margin_20px_top {
     margin-top: 20px;
 }
 
-.desc_container{
+.desc_container {
     margin: 5px;
 }
 
-.tech_list ul, .skills_list ul{
+.tech_list ul,
+.skills_list ul {
     margin-left: 20px;
     margin-bottom: 10px;
     margin-top: 5px;
 }
 
 .cotizaciones_Soriana {
-    order: 8;
+    order: 3;
 }
 
 .telegarm_tiendas {
     order: 11;
 }
+
 .telegram_scholars_farm {
-    order: 5;
+    order: 6;
 }
+
 .discord_casino {
-    order: 3;
-}
-.send_tokens_ron {
     order: 4;
 }
 
-.bot_binance {
-    order: 6;
+.send_tokens_ron {
+    order: 5;
 }
+
+.bot_binance {
+    order: 7;
+}
+
 .discord_assets_erc721 {
-    order: 2;
+    order: 10;
 }
 
 .arbitraje_bitso {
-    order: 7;
+    order: 8;
 }
+
 .agv_compas {
-order: 9;
+    order: 9;
 }
 
 .agv_compas_load {
-order: 10;
+    order: 2;
 }
 
 .landing_incotech {
@@ -186,135 +201,147 @@ order: 10;
 .macrox_excel {
     order: 12;
 }
-.mir4_bot{
-    order:1;
+
+.mir4_bot {
+    order: 4;
 }
 
-.width_100{
+.width_100 {
     width: 100%;
 }
-.principal{
+
+.principal {
     background-color: #bee1e6;
 }
 
-.projects_container_width{
+.projects_container_width {
     background-color: #fde2e4;
 }
-.card_main{
-border: solid 1px #005f73;
-background-color: #dfe7fd;
-box-shadow: 5px 10px 5px  #acacac;
+
+.card_main {
+    border: solid 1px #005f73;
+    background-color: #dfe7fd;
+    box-shadow: 5px 10px 5px #acacac;
 }
 
-@media (min-width:300px){
+@media (min-width:300px) {}
 
-}
-@media (min-width:700px){
-    main{
+@media (min-width:700px) {
+    main {
         display: flex;
         justify-content: center;
     }
-    .main_container{
+
+    .main_container {
         flex-wrap: wrap;
         flex-direction: row;
         max-width: 1500px;
         justify-content: center;
     }
-    
-    section{
+
+    section {
         margin: 0px;
     }
 
-    .left_margin{
+    .left_margin {
         padding-left: 30px;
     }
 
-    .projects_container_width{
+    .projects_container_width {
         max-width: 1500px;
         margin: 23px;
         margin-top: 10px;
     }
 
-    .principal{
+    .principal {
         margin-left: 10px;
     }
-    .my_info_container{
+
+    .my_info_container {
         width: 35%;
         height: auto;
-        display: initial; /* PENDIENTE POR AJUSTAR */
+        display: initial;
+        /* PENDIENTE POR AJUSTAR */
     }
 
-    .name{
+    .name {
         margin: 0px;
     }
 
-    .name_container{
+    .name_container {
         height: auto;
     }
-    .name_container h1{
+
+    .name_container h1 {
         margin-left: 0px;
         margin-bottom: 10px;
     }
-    .width_100_media{
+
+    .width_100_media {
         width: auto;
     }
-    .photo_container{
+
+    .photo_container {
         margin-top: 20px;
         margin-bottom: 20px;
         width: 100%;
         align-items: center;
         justify-content: center;
     }
-    
-    .name_container{
+
+    .name_container {
         width: 100%;
         margin-bottom: 10px;
     }
-    .principal{
+
+    .principal {
         width: 61%;
     }
-    .container{
+
+    .container {
         display: flex;
         flex-direction: column;
-        justify-content:space-around;
+        justify-content: space-around;
         height: 100%;
     }
-    .laboral_container{
+
+    .laboral_container {
         display: flex;
         flex-direction: column;
-        justify-content:space-around;
+        justify-content: space-around;
         height: 100%;
 
     }
 
-    .more_info{
+    .more_info {
         display: flex;
         width: 100%;
 
     }
 
-    .find_me, .hobbies{
+    .find_me,
+    .hobbies {
         display: inline-block;
         width: 50%;
     }
 
-    .projects_container{
+    .projects_container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        justify-content:space-evenly ;
+        justify-content: space-evenly;
         margin-bottom: 25px;
     }
 
-    .card_main{
+    .card_main {
         min-width: 300px;
         max-width: 400px;
         height: 250px;
         overflow: hidden;
         display: flex;
         flex-direction: column;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
     }
 
 }
